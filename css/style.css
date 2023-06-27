@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: monumen-regular;
+    src: url(../fonts/Monumen/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: monumen-ultrabold;
+    src: url(../fonts/Monumen/MonumentExtended-Ultrabold.otf);
+}
+
+body {
+    background-image: url(../images/bg-1.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+
+.active {
+    border-bottom: 3px solid #fff !important;
+}
+
+/* JUMBOTRON */
+
+.jumbotron h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 105px;
+    margin-top: 100px;
+}
+
+/* ABOUT */
+
+.about-text h1 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.about-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* MEMORIES */
+
+.memories-header h1 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+.memories-header p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.memories-slider img {
+    width:  450px;
+}
+
+/* PROFILE */
+
+.profile-header {
+    margin-top: 180px;
+}
+
+.profile-header .header-front {
+    z-index: 1000;
+}
+
+.profile-header .header-front h1 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+.profile-header .header-back{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -130px;
+    z-index: 1;
+}
